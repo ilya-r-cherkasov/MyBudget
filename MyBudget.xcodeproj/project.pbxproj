@@ -16,6 +16,9 @@
 		3B408A00285E394300C0E535 /* MyBudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4089FF285E394300C0E535 /* MyBudgetTests.swift */; };
 		3B408A0A285E394300C0E535 /* MyBudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B408A09285E394300C0E535 /* MyBudgetUITests.swift */; };
 		3B408A0C285E394300C0E535 /* MyBudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B408A0B285E394300C0E535 /* MyBudgetUITestsLaunchTests.swift */; };
+		3B408A26285E480400C0E535 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B408A25285E480400C0E535 /* MainScreen.swift */; };
+		3B408A29285E483300C0E535 /* CalendarInformationSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B408A28285E483300C0E535 /* CalendarInformationSource.swift */; };
+		3B408A2B285E486500C0E535 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B408A2A285E486500C0E535 /* SnapCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		3B408A05285E394300C0E535 /* MyBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B408A09285E394300C0E535 /* MyBudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBudgetUITests.swift; sourceTree = "<group>"; };
 		3B408A0B285E394300C0E535 /* MyBudgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBudgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B408A25285E480400C0E535 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		3B408A28285E483300C0E535 /* CalendarInformationSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarInformationSource.swift; sourceTree = "<group>"; };
+		3B408A2A285E486500C0E535 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,10 @@
 		3B4089E8285E394000C0E535 /* MyBudget */ = {
 			isa = PBXGroup;
 			children = (
-				3B4089E9285E394000C0E535 /* MyBudgetApp.swift */,
-				3B4089EB285E394000C0E535 /* ContentView.swift */,
+				3B408A2C285E486900C0E535 /* SnapCarousel */,
+				3B408A27285E482000C0E535 /* Services */,
+				3B408A24285E47F800C0E535 /* MainScreen */,
+				3B408A23285E47B400C0E535 /* Template */,
 				3B4089ED285E394300C0E535 /* Assets.xcassets */,
 				3B4089F2285E394300C0E535 /* Persistence.swift */,
 				3B4089F4285E394300C0E535 /* MyBudget.xcdatamodeld */,
@@ -131,6 +139,39 @@
 				3B408A0B285E394300C0E535 /* MyBudgetUITestsLaunchTests.swift */,
 			);
 			path = MyBudgetUITests;
+			sourceTree = "<group>";
+		};
+		3B408A23285E47B400C0E535 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				3B4089E9285E394000C0E535 /* MyBudgetApp.swift */,
+				3B4089EB285E394000C0E535 /* ContentView.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		3B408A24285E47F800C0E535 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3B408A25285E480400C0E535 /* MainScreen.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		3B408A27285E482000C0E535 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B408A28285E483300C0E535 /* CalendarInformationSource.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3B408A2C285E486900C0E535 /* SnapCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3B408A2A285E486500C0E535 /* SnapCarousel.swift */,
+			);
+			path = SnapCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4089F3285E394300C0E535 /* Persistence.swift in Sources */,
+				3B408A2B285E486500C0E535 /* SnapCarousel.swift in Sources */,
 				3B4089EC285E394000C0E535 /* ContentView.swift in Sources */,
+				3B408A26285E480400C0E535 /* MainScreen.swift in Sources */,
+				3B408A29285E483300C0E535 /* CalendarInformationSource.swift in Sources */,
 				3B4089F6285E394300C0E535 /* MyBudget.xcdatamodeld in Sources */,
 				3B4089EA285E394000C0E535 /* MyBudgetApp.swift in Sources */,
 			);
